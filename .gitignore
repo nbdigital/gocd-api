@@ -3,3 +3,5 @@ config.yml
 *.swp
 .idea
 *.iml
+Dockerfile
+npm-debug.log
