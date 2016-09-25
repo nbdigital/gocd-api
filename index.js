@@ -1,4 +1,5 @@
 var _ = require('lodash');
+var logger = require('./lib/logger');
 var globalOptions = require('./lib/options');
 var pipelineReader = require('./lib/gocd/pipelineFeedReader');
 var ccTrayReader = require('./lib/cc/ccTrayReader');
@@ -79,9 +80,7 @@ GoCd = {
       });
     };
 
-
     return globalOptions.getHistoryRequestor().getPipelineNames().then(function(names) {
-
       return pipelineReader.initFullCache().then(function() {
         return {
           readData: readData,

@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/birgitta410/gocd-api.git"
+    "url": "git://github.com/nbdigital/gocd-api.git"
   },
   "license": "Apache License 2.0",
   "bugs": {
-    "url": "https://github.com/birgitta410/gocd-api/issues"
+    "url": "https://github.com/nbdigital/gocd-api/issues"
   },
   "keywords": [
     "gocd"
@@ -21,7 +21,7 @@
     "lodash": "~2.4.1",
     "moment": "~2.6.0",
     "q": "~1.0.1",
-    "request": "~2.74.0",
+    "request": "~2.39.0",
     "xml2json": "^0.6.1"
   },
   "devDependencies": {
